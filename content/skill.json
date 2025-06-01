@@ -1,0 +1,26 @@
+[
+    {
+        "name": "JAVA",
+        "icon": "",
+        "description": "Intermediate level",
+        "yearOfExperience": 3
+    },
+    {
+        "name": "Javascript",
+        "icon": "",
+        "description": "",
+        "yearOfExperience": 3
+    },
+    {
+        "name": "ReactJS",
+        "icon": "",
+        "description": "",
+        "yearOfExperience": 3
+    },
+    {
+        "name": "NextJS",
+        "icon": "",
+        "description": "",
+        "yearOfExperience": 2
+    }
+]

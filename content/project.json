@@ -1,0 +1,84 @@
+{
+    "projects": [
+        {
+            "name": "Portfolio",
+            "description": "A simple portfolio build on Next.js and React. A fast and dynamic singple page application.",
+            "technologies": [
+                "Next.js",
+                "React",
+                "Tailwind CSS",
+                "TypeScript",
+                "HTML5",
+                "Github",
+                "Vercel"
+            ],
+            "isPublicRepo": true,
+            "githubLink": "",
+            "image": "/images/portfolio-project.png",
+            "imageAlign": "right"
+        },
+        {
+            "name": "E-commerce Web App",
+            "description": "An e-commerce web application built with Next.js, React, and TypeScript. It features a dynamic shopping cart and user authentication.",
+            "technologies": [
+                "Next.js",
+                "React",
+                "Tailwind CSS",
+                "TypeScript",
+                "HTML5",
+                "Github",
+                "Vercel",
+                "Prisma",
+                "Redis",
+                "PostgreSQL",
+                "Stripe"
+            ],
+            "isPublicRepo": false,
+            "githubLink": "",
+            "image": "/images/portfolio-project.png",
+            "imageAlign": "right"
+        },
+        {
+            "name": "Shorten URL",
+            "description": "An URL shortening service built with Next.js, React, and TypeScript. It allows users to shorten and manage their URLs.",
+            "technologies": [
+                "Next.js",
+                "React",
+                "Tailwind CSS",
+                "TypeScript",
+                "HTML5",
+                "Github",
+                "Vercel",
+                "Prisma",
+                "Redis",
+                "PostgreSQL"
+            ],
+            "isPublicRepo": false,
+            "githubLink": "",
+            "image": "/images/portfolio-project.png",
+            "imageAlign": "right"
+        },
+        {
+            "name": "Authentication and Authorization System",
+            "description": "A fullstack authentication and authorization system built with Next.js, React, and TypeScript. It features user registration, login, and role-based access control.",
+            "technologies": [
+                "Next.js",
+                "React",
+                "Node.js",
+                "Express.js",
+                "Tailwind CSS",
+                "TypeScript",
+                "HTML5",
+                "Github",
+                "Vercel",
+                "Prisma",
+                "Redis",
+                "PostgreSQL"
+            ],
+            "isPublicRepo": false,
+            "githubLink": "",
+            "image": "/images/portfolio-project.png",
+            "imageAlign": "right"
+        }
+    ]
+}
