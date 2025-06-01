@@ -1,6 +1,5 @@
 'use client';
 import { Button } from './ui/button';
-import { icons } from 'lucide-react';
 import { FaMoon, FaSun } from 'react-icons/fa';
 import { useTheme } from 'next-themes';
 

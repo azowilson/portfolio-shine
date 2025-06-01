@@ -1,14 +1,6 @@
 import { ReactNode } from 'react';
-import {
-    Card,
-    CardHeader,
-    CardTitle,
-    CardDescription,
-    CardContent,
-    CardFooter,
-} from './ui/card';
+import { Card, CardHeader, CardContent, CardFooter } from './ui/card';
 import Image from 'next/image';
-import { Star } from 'lucide-react';
 interface SkillCardProps {
     icon: ReactNode | string;
     name: string;
@@ -19,7 +11,7 @@ interface SkillCardProps {
 export default function SkillCard({
     icon,
     name,
-    description,
+
     yearOfExperience,
     levelStars,
 }: SkillCardProps) {

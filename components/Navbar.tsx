@@ -2,7 +2,6 @@
 
 import useScroll from '@/hooks/useScroll';
 import ThemeToggle from './ThemeToggle';
-import { Button } from './ui/button';
 import { cn } from '@/lib/utils';
 
 const Navbar: React.FC = () => {

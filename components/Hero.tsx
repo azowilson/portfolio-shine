@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import content from '../content/hero.json';
 const Hero: React.FC = () => {
-    const [typingStatus, setTypingStatus] = useState('Initializing');
+    const [, setTypingStatus] = useState('Initializing');
 
     return (
         // <div className="w-full">
@@ -52,24 +52,15 @@ const Hero: React.FC = () => {
                 </h2>
                 <div className="mt-4 flex gap-3">
                     <a
-                        href="#"
-                        onClick={() =>
-                            (window.location.href =
-                                'mailto:leungazowilson@gmail.com')
-                        }
+                        href="mailto:leungazowilson.ca@gmail.com"
                         className="text-[min(60px, 2rem)] md:text-2xl px-6 py-3  dark:text-black dark:bg-blue-300 dark:hover:bg-blue-600 bg-indigo-400 hover:bg-indigo-600 hover:-translate-y-1 text-white rounded-4xl shadow-md transition duration-300 ease-in-out delay-150"
                     >
                         Contact Me
                     </a>
 
                     <a
-                        href="#"
-                        onClick={() =>
-                            window.open(
-                                'linkedin.com/in/wilson-leung-b32220214',
-                                '_blank'
-                            )
-                        }
+                        href="https://www.linkedin.com/in/wilsonleung-dev/"
+                        target="_blank"
                         className="text-[min(60px, 2rem)] md:text-2xl px-6 py-3 dark:bg-gray-800 dark:hover:bg-gray-600 bg-gray-800 text-white rounded-4xl shadow-md hover:bg-black transition delay-150 duration-300 ease-in-out hover:-translate-y-1"
                     >
                         LinkedIn

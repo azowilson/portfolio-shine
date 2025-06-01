@@ -4,7 +4,7 @@ interface ResumeProps {
     dimension?: 'a4' | 'letter';
     format?: 'pdf' | 'jpag';
 }
-export default function Resume({ dimension, format }: ResumeProps) {
+export default function Resume({ dimension }: ResumeProps) {
     return (
         <div
             className={cn(

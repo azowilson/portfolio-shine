@@ -1,11 +1,5 @@
 import type { Metadata } from 'next';
-import {
-    Roboto,
-    Roboto_Serif,
-    Noto_Kufi_Arabic,
-    Inter,
-    Roboto_Mono,
-} from 'next/font/google';
+import { Roboto, Roboto_Mono } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
