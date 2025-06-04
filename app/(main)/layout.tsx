@@ -5,14 +5,14 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { ThemeProvider } from 'next-themes';
 
-export const roboto = Roboto({
+const roboto = Roboto({
     weight: ['200', '400', '600'],
     variable: '--font-roboto',
     subsets: ['latin'],
     display: 'swap',
 });
 
-export const robotoMono = Roboto_Mono({
+const robotoMono = Roboto_Mono({
     weight: ['200', '400', '600'],
     variable: '--font-roboto-mono',
     subsets: ['latin'],

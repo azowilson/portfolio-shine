@@ -1,7 +1,21 @@
-import { roboto, robotoMono } from '@/app/(main)/layout';
 import DocNavbar from '@/components/DocNavbar';
 import { ThemeProvider } from 'next-themes';
+import { Roboto, Roboto_Mono } from 'next/font/google';
 import { ReactNode } from 'react';
+
+const roboto = Roboto({
+    weight: ['200', '400', '600'],
+    variable: '--font-roboto',
+    subsets: ['latin'],
+    display: 'swap',
+});
+
+const robotoMono = Roboto_Mono({
+    weight: ['200', '400', '600'],
+    variable: '--font-roboto-mono',
+    subsets: ['latin'],
+    display: 'swap',
+});
 
 export default function Layout({
     children,
