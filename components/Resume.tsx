@@ -12,7 +12,10 @@ export default function Resume({ dimension }: ResumeProps) {
                 dimension ?? 'a4'
             )}
         >
-            this is resume
+            <h1>Wilson Leung</h1>
+            <h3>Software Developer</h3>
+            <h4>Summary</h4>
+            <p></p>
         </div>
     );
 }

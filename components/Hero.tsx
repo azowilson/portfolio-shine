@@ -7,7 +7,10 @@ const Hero: React.FC = () => {
 
     return (
         // <div className="w-full">
-        <section className="h-fit max-w-5xl mx-auto flex flex-col justify-start mb-40 px-5 shadow-md pb-30 mt-50">
+        <section
+            id="hero"
+            className="h-fit max-w-5xl mx-auto flex flex-col justify-start mb-40 px-5 shadow-md pb-30 mt-50"
+        >
             <div className="text-left ">
                 {/* typing animation here */}
                 <TypeAnimation
