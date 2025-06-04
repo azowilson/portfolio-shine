@@ -2,7 +2,7 @@ import DocNavbar from '@/components/DocNavbar';
 import { ThemeProvider } from 'next-themes';
 import { Roboto, Roboto_Mono } from 'next/font/google';
 import { ReactNode } from 'react';
-
+import '../../globals.css';
 const roboto = Roboto({
     weight: ['200', '400', '600'],
     variable: '--font-roboto',

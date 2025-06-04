@@ -246,7 +246,3 @@ p {
         @apply list-disc py-2 px-8 space-y-2;
     }
 }
-/* li {
-    list-style: disc;
-    list-style-position: inside;
-} */
