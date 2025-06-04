@@ -26,7 +26,10 @@ const Footer: React.FC = () => {
                                     Github
                                 </a>
                             </li>
-                            <li className="border-l-1 border-l-white px-2">
+                            <li
+                                className="border-l-1 border-l-white px-2 "
+                                style={{ listStyle: 'none' }}
+                            >
                                 <a
                                     href="mailto:leungazowilson.ca@gmail.com"
                                     className="flex items-center gap-2"

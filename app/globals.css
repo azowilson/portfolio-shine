@@ -238,7 +238,15 @@ p {
 }
 
 @layer components {
-    footer {
+    .footer {
         @apply min-h-72;
     }
+
+    .defaultList {
+        @apply list-disc py-2 px-8 space-y-2;
+    }
 }
+/* li {
+    list-style: disc;
+    list-style-position: inside;
+} */

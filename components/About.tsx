@@ -7,15 +7,8 @@ import {
     ScanEye,
     FolderSymlink,
 } from 'lucide-react';
-import { Button } from './ui/button';
-import Resume from './Resume';
 
 const About: React.FC = () => {
-    const renderResumeDrawer = () => {
-        console.log('hello');
-        // return <Resume />;
-    };
-
     return (
         <section
             id="about"
